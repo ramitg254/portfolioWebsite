@@ -400,13 +400,13 @@ nav .fa-solid {
   .content p {
     color: #ffff;
     font-size: 0.5em; 
-    left: 135px;
+    left: 105px;
     top: 35%;
   }
   .content h1 {
     color: #00ffff;
     font-size: 0.85em;
-    left: 135px;
+    left: 105px;
     top: 42%;
     text-align: center;
   }
@@ -414,7 +414,7 @@ nav .fa-solid {
     color: #00ffff;
     font-size: 0.85em;
     top: 50%;
-    left: 135px;
+    left: 105px;
   }
 
   nav .fa-solid {
