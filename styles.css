@@ -386,21 +386,30 @@ form .btn2 {
 nav .fa-solid {
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #header {
     height: 100vh;
   }
   .content p {
-    position: relative;
-    top: 150px;
-    left: 10%;
-    font-size: 0.5em;
+    color: #ffff;
+    font-size: 0.75em;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-align: center;
   }
   .content h1 {
     color: #00ffff;
     font-size: 0.75em;
-    position: absolute;
-    top: 280px;
+    left: 46%;
+    top: 38%;
+    text-align: center;
+  }
+  .name h1 {
+    color: #00ffff;
+    font-size: 0.75em;
+    top: 48%;
+    left: 38%;
   }
 
   nav .fa-solid {
@@ -460,16 +469,16 @@ nav .fa-solid {
   display: block;
 }
 
-@media only screen and (max-height: 700px){
-    #header{
-        height: 700px;
-    } 
+@media only screen and (max-height: 700px) {
+  #header {
+    height: 700px;
+  }
 }
-@media only screen and (max-width: 904px){
-    .content h1{
-        transform: translate(-50%,75%);
-    }
-    .name h1{
-        transform: translate(-25%,100%);
-    }
+@media only screen and (max-width: 904px) {
+  .content h1 {
+    transform: translate(-50%, 75%);
+  }
+  .name h1 {
+    transform: translate(-25%, 100%);
+  }
 }
