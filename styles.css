@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #004f98;
+  background: #000;
   color: #fff;
 }
 #header {
@@ -69,14 +69,18 @@ nav ul li a:hover::after {
   color: #ffff;
   font-size: 1.2em;
   position: absolute;
-  transform: translate(-35%, 0%);
+  /* transform: translate(-90%, 0%); */
+  left: 315px;
+  top: 37%;
 }
 
 .content h1 {
   color: #00ffff;
   font-size: 1.95em;
   position: absolute;
-  transform: translate(-50%, 120%);
+  /* transform: translate(-126%, 120%); */
+  top: 50%;
+  left: 315px;
 }
 .content h1:nth-child(2) {
   color: transparent;
@@ -90,7 +94,7 @@ nav ul li a:hover::after {
 
 .name h1 {
   position: absolute;
-  transform: translate(-25%, 250%);
+  top: 65%;
 }
 .name h1:nth-child(1) {
   color: transparent;
@@ -204,6 +208,7 @@ nav ul li a:hover::after {
   grid-template-columns: auto auto auto;
   grid-gap: 40px;
   margin-top: 50px;
+  color: #000;
 }
 .services-list div {
   background: #5d8aa8;
@@ -228,7 +233,7 @@ nav ul li a:hover::after {
 }
 .services-list div a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-size: 12px;
   margin-top: 20px;
   display: inline-block;
@@ -348,6 +353,7 @@ nav ul li a:hover::after {
 .btn.btn2 {
   display: inline-block;
   background-color: #00ffff;
+  color: #000;
 }
 .contact-right form {
   width: 100%;
@@ -360,12 +366,12 @@ form textarea {
   background-color: #5d8aa8;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: #000;
   font-size: 18px;
   border-radius: 6px;
 }
 ::placeholder {
-  color: #fff;
+  color: #000;
 }
 form .btn2 {
   padding: 14px 60px;
@@ -376,6 +382,7 @@ form .btn2 {
 .copyright {
   width: 100%;
   text-align: center;
+  color: #000;
   padding: 25px 0;
   background: #5d8aa8;
   font-weight: 300;
@@ -392,24 +399,22 @@ nav .fa-solid {
   }
   .content p {
     color: #ffff;
-    font-size: 0.65em;
-    position: absolute;
-    top: 33%;
-    left: 40%;
-    text-align: center;
+    font-size: 0.5em; 
+    left: 135px;
+    top: 35%;
   }
   .content h1 {
     color: #00ffff;
-    font-size: 0.75em;
-    left: 46%;
-    top: 38%;
+    font-size: 0.85em;
+    left: 135px;
+    top: 42%;
     text-align: center;
   }
   .name h1 {
     color: #00ffff;
-    font-size: 0.75em;
-    top: 48%;
-    left: 38%;
+    font-size: 0.85em;
+    top: 50%;
+    left: 135px;
   }
 
   nav .fa-solid {
@@ -470,15 +475,25 @@ nav .fa-solid {
 }
 
 @media only screen and (max-height: 700px) {
-  #header {
-    height: 700px;
+ 
+  .content p {
+    color: #ffff;
+    font-size: 0.5em; 
+    left: 135px;
+    top: 35%;
   }
-}
-@media only screen and (max-width: 904px) {
   .content h1 {
-    transform: translate(-50%, 75%);
+    color: #00ffff;
+    font-size: 0.85em;
+    left: 135px;
+    top: 45%;
+    text-align: center;
   }
   .name h1 {
-    transform: translate(-25%, 100%);
+    color: #00ffff;
+    font-size: 0.85em;
+    top: 60%;
+    left: 135px;
   }
 }
+
