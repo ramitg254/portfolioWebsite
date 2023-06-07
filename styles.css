@@ -79,8 +79,8 @@ nav ul li a:hover::after {
   font-size: 1.95em;
   position: absolute;
   /* transform: translate(-126%, 120%); */
-  /* top: 50%;
-  left: 315px; */
+  top: 50%;
+  left: 315px; 
 }
 .content h1:nth-child(2) {
   color: transparent;
