@@ -485,5 +485,17 @@ nav .fa-solid {
     width: 120%;
   }
 }
+@media only screen and (max-height: 500px )  {
+
+  .content p {
+    top: 35%;
+  }
+  .content h1 {
+    top: 47.5%;
+  }
+  .name h1 {
+    top: 70%;
+  }
+}
 
 
