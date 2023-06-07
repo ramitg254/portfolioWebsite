@@ -80,7 +80,7 @@ nav ul li a:hover::after {
   position: absolute;
   /* transform: translate(-126%, 120%); */
   top: 50%;
-  left: 315px; 
+  left: 315px;
 }
 .content h1:nth-child(2) {
   color: transparent;
@@ -392,35 +392,9 @@ form .btn2 {
 nav .fa-solid {
   display: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   #header {
     height: 100vh;
-  }
-  nav .fa-solid {
-    margin-top: 5%;
-    display: block;
-    font-size: 25px;
-  }
-  nav ul {
-    background-color: #5d8aa8;
-    position: fixed;
-    top: 0;
-    left: -200px;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
-    z-index: 2;
-    transition: left 0.5s;
-  }
-  nav ul li {
-    display: block;
-    margin: 25px;
-  }
-  nav ul .fa-solid {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    cursor: pointer;
   }
   .sub-title {
     font-size: 40px;
@@ -456,6 +430,32 @@ nav .fa-solid {
 
 @media only screen and (max-height: 700px ) ,only screen and (max-width:1300px) {
  
+  nav .fa-solid {
+    margin-top: 5%;
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background-color: #5d8aa8;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: left 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
   .content p {
     color: #ffff;
     font-size: 0.75em; 
