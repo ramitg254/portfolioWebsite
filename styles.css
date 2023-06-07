@@ -79,8 +79,8 @@ nav ul li a:hover::after {
   font-size: 1.95em;
   position: absolute;
   /* transform: translate(-126%, 120%); */
-  top: 50%;
-  left: 315px;
+  /* top: 50%;
+  left: 315px; */
 }
 .content h1:nth-child(2) {
   color: transparent;
@@ -380,7 +380,6 @@ form .btn2 {
   cursor: pointer;
 }
 .copyright {
-  width: 100%;
   text-align: center;
   color: #000;
   padding: 25px 0;
@@ -397,26 +396,6 @@ nav .fa-solid {
   #header {
     height: 100vh;
   }
-  .content p {
-    color: #ffff;
-    font-size: 0.5em; 
-    left: 105px;
-    top: 35%;
-  }
-  .content h1 {
-    color: #00ffff;
-    font-size: 0.85em;
-    left: 105px;
-    top: 42%;
-    text-align: center;
-  }
-  .name h1 {
-    color: #00ffff;
-    font-size: 0.85em;
-    top: 50%;
-    left: 105px;
-  }
-
   nav .fa-solid {
     margin-top: 5%;
     display: block;
@@ -468,32 +447,43 @@ nav .fa-solid {
     font-size: 14px;
   }
 }
+
 #msg {
   color: #61b752;
   margin-top: -35px;
   display: block;
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 700px ) ,only screen and (max-width:1300px) {
  
   .content p {
     color: #ffff;
-    font-size: 0.5em; 
-    left: 135px;
+    font-size: 0.75em; 
+    left: 13%;
     top: 35%;
+    white-space: nowrap;
   }
   .content h1 {
     color: #00ffff;
-    font-size: 0.85em;
-    left: 135px;
+    font-size: 1.2em;
+    left: 13%;
     top: 45%;
     text-align: center;
   }
   .name h1 {
     color: #00ffff;
-    font-size: 0.85em;
+    font-size: 1.2em;
     top: 60%;
-    left: 135px;
+    left: 13%;
+    white-space: nowrap;
   }
 }
+
+@media only screen and (max-width: 410px )  {
+
+  #about, .copyright{
+    width: 120%;
+  }
+}
+
 
