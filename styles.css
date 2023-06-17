@@ -250,7 +250,7 @@ nav ul li a:hover::after {
 }
 .work-list {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   grid-gap: 40px;
   margin-top: 50px;
 }
