@@ -78,7 +78,6 @@ nav ul li a:hover::after {
   color: #ffff;
   font-size: 1.2em;
   position: absolute;
-  /* transform: translate(-90%, 0%); */
   top:25vh;
   left:10%;
 }
@@ -87,7 +86,6 @@ nav ul li a:hover::after {
   color: #00ffff;
   font-size: 1.95em;
   position: absolute;
-  /* transform: translate(-126%, 120%); */
   top: 40vh;
   left: 10%;
 }
@@ -103,7 +101,6 @@ nav ul li a:hover::after {
 
 .name h1 {
   position: absolute;
-  /* transform: translate(-126%, 120%); */
   top: 55vh;
   left: 10%;
 }
@@ -154,9 +151,9 @@ nav ul li a:hover::after {
   width: 30%;
 }
 .right-photo {
-  /* Adjust the width, height, or margins as needed */
-  width: 90%; /* Example width */
-  height: auto; /* Maintain aspect ratio */
+  
+  width: 90%; 
+  height: auto; 
   margin-right: 15%;
   margin-top: auto;
   position: absolute;
@@ -598,7 +595,7 @@ nav .fa-solid {
 
 @media (max-width: 1600px) {
   .right-photo {
-    width: 85%; /* Adjust the photo size to fit better */
+    width: 85%; 
     top: 30%;
     right: 10%;
   }
@@ -608,7 +605,7 @@ nav .fa-solid {
 @media (max-width: 1030px) {
   .header-text {
     font-size: 4vw;
-    width: 70%; /* Increase the width to give more space for text */
+    width: 70%;
   }
   .header-text h1 {
     font-size: 6vw;
@@ -623,10 +620,10 @@ nav .fa-solid {
     top: 48vh;
   }
   .profile-img {
-    width: 40%; /* Increase the width for better visibility */
+    width: 40%; 
   }
   .right-photo {
-    width: 90%; /* Adjust the photo size to fit better */
+    width: 90%; 
     top: 40%;
     right: 10%;
   }
@@ -634,8 +631,8 @@ nav .fa-solid {
 
 @media (max-width: 700px) {
   .header-container {
-    flex-direction: column-reverse; /* Stack elements vertically */
-    height: auto; /* Adjust height to be auto to accommodate the vertical stacking */
+    flex-direction: column-reverse; 
+    height: auto;
     margin: 0;
   }
   .profile-img{
