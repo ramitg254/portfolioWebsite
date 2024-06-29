@@ -1,99 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Ramit Gupta</title>
-    <link rel="icon" type="image/x-icon" href="images/website logo.png">
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://kit.fontawesome.com/8385f10e2b.css"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-          </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Ramit Gupta</title>
+  <link rel="icon" type="image/x-icon" href="images/website logo.png">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://kit.fontawesome.com/8385f10e2b.css" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-container">
         <div class="header-text content">
           <p>Web Developer</p>
-          <h1>Hi, I'm</h1>
-          <h1>Hi, I'm</h1>
+          <h1 class="first">Hi, I'm</h1>
+          <h1 class="second">Hi, I'm</h1>
           <div class="name">
             <h1>Ramit Gupta</h1>
             <h1>Ramit Gupta</h1>
           </div>
         </div>
+        <div class="profile-img">
+          <img src="/images/photo.png" alt="not found" class="right-photo">
+        </div>
+
       </div>
+
     </div>
-    <!-- -------------------about----------------- -->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              Hello, my name is Ramit Gupta, and I'm a second-year student at NIT Hamirpur studying computer science and engineering. I'm a tech enthusiast who's ready to expand my professional network and obtain expertise in the field.
+  </div>
+  <!-- -------------------about----------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Hello, my name is Ramit Gupta, and I'm a second-year student at NIT Hamirpur studying computer science and
+            engineering. I'm a tech enthusiast who's ready to expand my professional network and obtain expertise in the
+            field.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
             </p>
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li>
-                  <span>Web Development</span><br />Building Websites/WebApps
-                </li>
-                <!-- <li>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Web Development</span><br />Building Websites/WebApps
+              </li>
+              <!-- <li>
                   <span>Blockchain Development</span><br />Building Smart
                   Contracts
                 </li> -->
-                <li>
-                  <span>Data Structures & Algorithms</span><br />Problem Solving
-                  in Java
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li><span>2021</span><br />Completed Schooling</li>
-                <li><span>2025</span><br />BTech From NIT Hamirpur</li>
-              </ul>
-            </div>
+              <li>
+                <span>Data Structures & Algorithms</span><br />Problem Solving
+                in Java
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021</span><br />Completed Schooling</li>
+              <li><span>2025</span><br />BTech From NIT Hamirpur</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-    <!-- --------------------services------------- -->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-          <div class="card">
-            <div class="ib1">
-              <img class="icon" src="images/image-1.png" alt="" />
-            </div>
-            <h2>Web Development</h2>
-            <p>
-              I have knowledge of web development, including HTML5, CSS, JavaScript, Bootstrap, ReactJS, NodeJS, ExpressJS and MongoDB. My github profile, which is attached, has the source code for some of the projects I've created. The link to my github profile is attached below
-            </p>
-            <a href="https://github.com/ramitg254" target="_blank">github profile</a>
+  </div>
+  <!-- --------------------services------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div class="card">
+          <div class="ib1">
+            <img class="icon" src="images/image-1.png" alt="" />
           </div>
-          <!-- <div>
+          <h2>Web Development</h2>
+          <p>
+            I have knowledge of web development, including HTML5, CSS, JavaScript, Bootstrap, ReactJS, NodeJS, ExpressJS
+            and MongoDB. My github profile, which is attached, has the source code for some of the projects I've
+            created. The link to my github profile is attached below
+          </p>
+          <a href="https://github.com/ramitg254" target="_blank">github profile</a>
+        </div>
+        <!-- <div>
             <i class="fa-brands fa-ethereum"></i>
             <h2>Blockchain Development</h2>
             <p>
@@ -103,133 +112,114 @@
             </p>
             <a href="#">learn more</a>
           </div> -->
-          <div class="card">
-            <div class="ib2">
-              <img class="icon" src="images/coding.png" alt="" />
-            </div>        
-            <h2>DSA</h2>
+        <div class="card">
+          <div class="ib2">
+            <img class="icon" src="images/coding.png" alt="" />
+          </div>
+          <h2>DSA</h2>
+          <p>
+            I have problem solving skills and knowledge of data structures and Algorithms in Java. I also have some
+            experience with c and c++.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------my work--------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-4.jpg" alt="" />
+          <div class="layer">
+            <h3>Doctor Booking Website</h3>
             <p>
-              I have problem solving skills and knowledge of data structures and Algorithms in Java. I also have some experience with c and c++.
+              Developed a full-stack doctor booking website enabling patients to book appointments with certified
+              doctors and select from a range of specialized practitioners.
             </p>
+            <a href="https://doctor-booking-website-frontend.onrender.com/" target="_blank"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-1.jpg" alt="" />
+          <div class="layer">
+            <h3>Travel Journal API</h3>
+            <p>
+              This is a REST Api which keeps track of your destinations travelled in a particular country along with
+              your experience, the api is equipped with user authentication and one can create, read, update and delete
+              (CRUD) the data.
+            </p>
+            <a href="https://travel-journal-api.cyclic.app/api-docs/" target="_blank"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.jpg" alt="" />
+          <div class="layer">
+            <h3>Quiz App</h3>
+            <p>
+              this is a Quiz web app that produces three random questions and according to your answers produces the
+              result.
+            </p>
+            <a href="https://funquizy.netlify.app/" target="_blank"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.jpg" alt="" />
+          <div class="layer">
+            <h3>Drum Kit</h3>
+            <p>
+              this website prouduces sounds of instruments on clicking the instruments or pressing the keys addressed.
+            </p>
+            <a href="Drum Kit/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
       </div>
     </div>
-    <!-- ------------------------my work--------------- -->
-   <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="images/work-4.jpg" alt="" />
-            <div class="layer">
-              <h3>Doctor Booking Website</h3>
-              <p>
-               Developed a full-stack doctor booking website enabling patients to book appointments with certified doctors and select from a range of specialized practitioners.
-              </p>
-              <a href="https://doctor-booking-website-frontend.onrender.com/" target="_blank"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/work-1.jpg" alt="" />
-            <div class="layer">
-              <h3>Travel Journal API</h3>
-              <p>
-               This is a REST Api which keeps track of your destinations travelled in a particular country along with your experience, the api is equipped with user authentication and one can create, read, update and delete (CRUD) the data.
-              </p>
-              <a href="https://travel-journal-api.cyclic.app/api-docs/" target="_blank"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/work-2.jpg" alt="" />
-            <div class="layer">
-              <h3>Quiz App</h3>
-              <p>
-                this is a Quiz web app that produces three random questions and according to your answers produces the result.
-              </p>
-              <a href="https://funquizy.netlify.app/" target="_blank"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/work-3.jpg" alt="" />
-            <div class="layer">
-              <h3>Drum Kit</h3>
-              <p>
-                this website prouduces sounds of instruments on clicking the instruments or pressing the keys addressed.
-              </p>
-              <a href="Drum Kit/index.html" target="_blank"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
+  </div>
+  <!------------------contact---------------->
+  <div id="contact">
+    <div class="container">
+      <h1 class="sub-title">Contact</h1>
+      <div class="row">
+        <div class="contact-top">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Name" required />
+            <input type="email" name="Email" placeholder="Email" required />
+            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
         </div>
       </div>
     </div>
-    <!------------------contact---------------->
-    <div id="contact">
-      <div class="container">
-        <h1 class="sub-title">Contact</h1>
-        <div class="row">
-          <div class="contact-top">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="Email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Message"
-              ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
-        </div>
-      </div>
+  </div>
+  <div class="contact-bottom">
+    <div>
+      <p>
+        <i class="fa-sharp fa-solid fa-paper-plane"></i>ramitg254@gmail.com
+      </p>
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        +91 9816842001
+      </p>
     </div>
-    <div class="contact-bottom">
-      <div>
-        <p>
-          <i class="fa-sharp fa-solid fa-paper-plane"></i
-          >ramitg254@gmail.com
-        </p>
-        <p>
-          <i class="fa-solid fa-phone"></i>
-          +91 9816842001
-        </p>
-      </div>
-      <div class="social-icons">
-        <a href="https://github.com/ramitg254" target="_blank"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/ramit-gupta-47930622a/"
-          target="_blank"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a href="https://www.instagram.com/__ramit_g_71/" target="_blank"
-          ><i class="fa-brands fa-instagram"></i
-        ></a>
-      </div>
-      <div>
-        <a href="images/resume1.pdf" download class="btn btn2">Resume</a>
-      </div>
-      
-    </div>  
-  </body>
-  <script src="index.js" charset="utf-8"></script>
-  <script
-    src="https://kit.fontawesome.com/8385f10e2b.js"
-    crossorigin="anonymous"
-  ></script>
+    <div class="social-icons">
+      <a href="https://github.com/ramitg254" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ramit-gupta-47930622a/" target="_blank"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/__ramit_g_71/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div>
+      <a href="images/resume1.pdf" download class="btn btn2">Resume</a>
+    </div>
+
+  </div>
+</body>
+<script src="index.js" charset="utf-8"></script>
+<script src="https://kit.fontawesome.com/8385f10e2b.js" crossorigin="anonymous"></script>
+
 </html>
