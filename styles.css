@@ -648,7 +648,7 @@ nav .fa-solid {
   .content p{
     font-size: 1.75em;
     top: 40vh;
-    left: 10%;
+    left: 13%;
   }
   .content h1{
     font-size: 2.25em;
@@ -658,7 +658,7 @@ nav .fa-solid {
   .name h1{
     font-size: 2.25em;
     top: 58vh;
-    left:10%
+    left:13%
   }
 }
 @media (max-height: 720px) and (max-width:550px){
