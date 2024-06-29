@@ -641,24 +641,38 @@ nav .fa-solid {
   .profile-img{
     margin-top: 20%;
     width: 60%;
-    left:10%;
+    left:13%;
     top:6vh
   }
 
   .content p{
     font-size: 1.75em;
-    top: 50vh;
+    top: 40vh;
     left: 10%;
   }
   .content h1{
     font-size: 2.25em;
-    top:58vh;
+    top:48vh;
     left:25%
   }
   .name h1{
     font-size: 2.25em;
-    top: 70vh;
+    top: 58vh;
     left:10%
+  }
+}
+@media (max-height: 720px) and (max-width:550px){
+  #header{
+    height: 120vh;
+  }
+  .content p{
+    top:55vh;
+  }
+  .content h1{
+    top:63vh;
+  }
+  .name h1{
+    top:75vh;
   }
 }
 
